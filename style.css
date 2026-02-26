@@ -11,6 +11,11 @@ body {
     text-align: center;
     padding: 60px 20px;
 }
+.img-box img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
 
 .banner h1 {
     font-size: 3em;
