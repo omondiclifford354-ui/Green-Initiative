@@ -9,23 +9,28 @@
 
 <body>
 
-    <!-- Navigation -->
-    <header>
+    <!-- ===== BANNER ===== -->
+    <header class="banner">
         <h1>Green Initiative 2026</h1>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="activities.html">Activities</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-            <a href="project.html">Project</a>
-             <li><a href="gallery.html">Gallery</a></li>
-        </nav>
+        <p>Support Our Cause</p>
     </header>
 
-    <!-- Donate Section -->
-    <section class="container">
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="donate.html" class="active">Donate</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== DONATE SECTION ===== -->
+    <section class="content-section">
         <h2>Support Our Mission</h2>
 
         <p>
@@ -34,32 +39,30 @@
             Every contribution makes a difference.
         </p>
 
-        <div class="donation-box">
-            <h3>Make a Donation</h3>
+        <div class="about-content">
+            <form action="#" method="post">
 
-            <form>
-                <label>Full Name</label>
-                <input type="text" placeholder="Enter your name" required>
+                <label>Full Name</label><br>
+                <input type="text" name="fullname" required><br><br>
 
-                <label>Email</label>
-                <input type="email" placeholder="Enter your email" required>
+                <label>Email</label><br>
+                <input type="email" name="email" required><br><br>
 
-                <label>Amount (KES)</label>
-                <input type="number" placeholder="Enter amount" required>
+                <label>Amount (KES)</label><br>
+                <input type="number" name="amount" required><br><br>
 
-                <label>Message (Optional)</label>
-                <textarea placeholder="Leave a message"></textarea>
+                <label>Message (Optional)</label><br>
+                <textarea name="message" rows="5"></textarea><br><br>
 
-                <button type="submit">Donate Now</button>
+                <button type="submit" class="btn">Donate Now</button>
+
             </form>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>Green Initiative 2026</p>
-        <p>Address: Rongai Ole Kasasi, Nairobi Dandora</p>
-        <p>Email: basilomune489@gmail.com</p>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>&copy; 2026 Green Initiative. All Rights Reserved.</p>
     </footer>
 
 </body>
