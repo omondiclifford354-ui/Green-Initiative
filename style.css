@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ===== BANNER ===== */
+.banner {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 3em;
+}
+
+.banner p {
+    font-style: italic;
+}
+
+/* ===== NAVIGATION ===== */
+.navbar {
+    background-color: #d2691e;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar .active {
+    background-color: #a0522d;
+}
+
+/* ===== CONTENT ===== */
+.content-section {
+    background: black;
+    color: white;
+    padding: 40px;
+}
+
+.content-section h2 {
+    text-align: center;
+    color: #20b2aa;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.footer-box {
+    background: #f0f0f0;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.copyright {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
