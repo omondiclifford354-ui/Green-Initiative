@@ -11,10 +11,28 @@ body {
     text-align: center;
     padding: 60px 20px;
 }
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
 .img-box img {
     width: 250px;
     height: 250px;
     object-fit: cover;
+}
+.img-box img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
 }
 
 .banner h1 {
