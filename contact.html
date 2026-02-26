@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Green Initiative</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -23,8 +23,8 @@
         <li><a href="about.html">About</a></li>
         <li><a href="activities.html">Activities</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
         <li><a href="donate.html">Donate</a></li>
+        <li><a href="project.html">Project</a></li>
     </ul>
 </nav>
 
@@ -35,7 +35,7 @@
 
     <div class="about-content">
 
-        <form>
+        <form action="#" method="post">
 
             <label>Full Name:</label><br>
             <input type="text" name="name" required><br><br>
@@ -47,7 +47,28 @@
             <input type="tel" name="phone"><br><br>
 
             <label>Type of Enquiry:</label><br>
-            <select>
+            <select name="enquiry_type">
                 <option>Partnership</option>
                 <option>Donation</option>
-                <option>Volunteer Opportunity</
+                <option>Volunteer Opportunity</option>
+                <option>General Question</option>
+            </select><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="btn">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>&copy; 2026 Green Initiative. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
